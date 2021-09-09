@@ -1,5 +1,5 @@
 import asyncio
-from get_matrix import get_matrix
+from get_matrix import get_matrix, spiral_order
 
 SOURCE_URL = 'https://raw.githubusercontent.com/avito-tech/python-trainee-assignment/main/matrix.txt'
 TRAVERSAL = [
