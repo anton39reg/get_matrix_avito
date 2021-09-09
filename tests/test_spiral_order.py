@@ -1,4 +1,3 @@
-import pytest
 from get_matrix import spiral_order
 
 
