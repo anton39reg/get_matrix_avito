@@ -1,7 +1,5 @@
 import asyncio
-import get_matrix
-from get_matrix import get_matrix, spiral_order
-# sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from get_matrix import get_matrix
 
 
 SOURCE_URL = 'https://raw.githubusercontent.com/avito-tech/python-trainee-assignment/main/matrix.txt'
