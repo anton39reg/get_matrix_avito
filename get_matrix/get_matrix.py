@@ -47,7 +47,7 @@ async def get_matrix(url: str) -> List[int]:
                     data = await resp.text()
                     logging.info(f'Data: {data}')
                 else:
-                    logging.errir(f'Status: {resp.status}')
+                    logging.error(f'Status: {resp.status}')
                     return None
         except aiohttp.ClientConnectorError as e:
             logging.error(f'Connection Error: {str(e)}')
