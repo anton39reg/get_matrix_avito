@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(
-    name='GetMatrixPilkevich',
+    name='get_matrix_pilkevich',
     version='0.0.0',
     author='Anton Pilkevich',
     author_email='anton39reg@mail.ru',
