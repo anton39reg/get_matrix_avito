@@ -6,7 +6,7 @@ logging.basicConfig(level=logging.DEBUG)
 
 
 def spiral_order(matrix: List[List[int]]) -> List[int]:
-    # source: https://leetcode.com/problems/spiral-matrix/solution/
+    # I gote code from this: https://leetcode.com/problems/spiral-matrix/solution/
 
     result = []
     rows, columns = len(matrix), len(matrix[0])
